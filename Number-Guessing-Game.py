@@ -2,7 +2,7 @@ import random
 number=random.randint(1,100)
 flag=0
 count=0
-#number=36
+
 while flag!=1:
     guess=int(input("\nGuess a no. Between 1 and 100\n"))
     count=count+1
